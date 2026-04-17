@@ -33,6 +33,10 @@ img{
     border: 2px solid #2980b9;
 }
 
+ul{
+    height: 1.8;
+}
+
 a{
     color: #2980b9;
     font-weight: bold;
