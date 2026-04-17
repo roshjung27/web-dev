@@ -43,6 +43,12 @@ a{
     text-decoration: none;
 }
 
+hr{
+    border: none;
+    border-top:  1px solid #cccccc;
+    
+}
+
 a:hover{
      text-decoration: underline;  
      color: #1a5276; 
