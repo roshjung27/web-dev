@@ -22,14 +22,18 @@
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
   }
+
+  p[draggable="false"]{
+    font-family: Arial, sans-serif;
+  }
   
 </style>
 <body>
   <h1>Contact Me</h1>
   <p class="phone">Tel: +977 1234567890</p>
-  <p id="email">Email: me@gmail.com</p>
+  <p id="email"; draggable="false">Email: me@gmail.com</p>
   <p draggable="true">Address:</p>
-  <p>
+  <p draggable="false">
     Kathmandu, Nepal<br />
     Sukedhara<br />
     Nepal <br />
